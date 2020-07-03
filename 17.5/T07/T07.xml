@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="no" ?>
+<kfxScript>
+   <atAllTimeSteps>
+   </atAllTimeSteps>
+   <atExit>
+      <save type="field" macro="s">
+         <file name="$c_std_exit.r3d" counter="12" />
+      </save>
+      <save type="field" macro="f4">
+         <file name="$c_tke_exit.r3d" counter="12" />
+      </save>
+      <save type="restart" />
+   </atExit>
+</kfxScript>

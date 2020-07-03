@@ -1,0 +1,55 @@
+<atStepNumber stepNumber="0">
+<control clines="
+xe=2100 ye=-1200 ze=319.3 xc=100 yc=0 zc=169.3
+
+Time_end=60
+Max_step=900000
+dt_output=120
+Nfil=900000
+Tau_chem=7e-05
+coumax=10
+coufac=1.1
+dtmin=0.001
+dtmax=0.1
+TSHR_INI=1e+30
+TSHR_FAC=1
+LCOBRO=0
+ECHOS=nxnxnnnn
+N_FINT=-1
+CONLIM=0.0001
+Trad=800
+Tbox=800
+RELQ=0.3
+nrays=96
+nrob=1
+souvw=0.9
+sou=0.9
+ignition=0
+ignition_time=0
+sleep=0
+SOLVER=QTDMA
+PSOLVER=STONE
+MAXITSP=4
+MAXITPC=1000
+NCYCMAX=1
+TPClim=0
+FACmod=1.2
+MOMRELA=0.4
+TEKRELA=0.4
+PRERELA=1
+ESPRELA=0.4
+OTHRELA=0.4
+RELSPCO=0.3
+SWingphi=0
+SWingtk=0
+dMin=1e-05
+Q_FARRAD=0
+Q_SUN=0
+SUN_VX=1
+SUN_VY=0
+SUN_VZ=1
+DTSOLID=0
+forceM=0
+RARG1=310 RARG2=2 RARG3=0.8 RARG4=0.9
+"/>
+</atStepNumber>

@@ -1,0 +1,23 @@
+# Created by kfxview
+ISOCOL: 1
+GRATING: 0.2
+INCLUDE: KFXVIEW_SESSION294912.s1
+SIZEPX: 720 576
+SAVEIMAGE: T06_k4.6_cyl.jpg
+> key - p f d O 
+> centerpoint 0 0 0
+> width inf
+> radius inf
+> v-ang 45 315
+> XM 1e+30
+> YM 1e+30
+> ZM 1e+30
+> XP -1e+30
+> YP -1e+30
+> ZP -1e+30
+> bg 1 1 1
+> fg 0 0 0
+> frame 0
+LEGFORMAT: %g
+CONTOURPROJ: 0 0 0
+LOADIMAGE: computit.jpg -10 18

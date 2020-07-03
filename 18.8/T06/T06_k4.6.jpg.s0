@@ -1,0 +1,30 @@
+# Created by kfxview
+ISOCOL: 1
+GRATING: 0.2
+INCLUDE: /home/sung-hoon/RUBY/Fire/RUBY_FPSO_60p.kfx
+SIZEPX: 1011 605
+LOADFIELD: /home/sung-hoon/RUBY/Turbulence/18.8/T06/T06_tke_exit.r3d 
+SAVEIMAGE: T06_k4.6.jpg
+> key - p f d O 
+> centerpoint 145.014 -108.964 -3.40338
+> width 327.57
+> radius 327.57
+> v-ang 18.4047 133.681
+> XM -300.005
+> YM -400.005
+> ZM -0.004
+> XP 500.005
+> YP 400.005
+> ZP 312.504
+> bg 1 1 1
+> fg 0 0 0
+> frame 0
+LEGFORMAT: %g
+CONTOURPROJ: 0 0 0
+ISOPARAM: 0.1 0.1 1 0.4 1 1
+CONTOURMODE: 0 0 0 
+CONTOUR: s 20 0 1 1 
+ISOPARAM: 1 0.1 0.1 0.4 1 1
+CONTOURMODE: 0 0 0 
+CONTOUR: s 4.6 0 1 2 
+LOADIMAGE: computit.jpg -10 18

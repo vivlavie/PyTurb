@@ -1,0 +1,27 @@
+# Created by kfxview
+ISOCOL: 1
+GRATING: 0.2
+INCLUDE: /home/sung-hoon/RUBY/Fire/RUBY_FPSO_60p.kfx
+SIZEPX: 1804 1374
+LOADFIELD: /home/sung-hoon/RUBY/Turbulence/T07/TS15M_tke_exit.r3d 
+SAVEIMAGE: tke20M.jpg
+> key - p f d O 
+> centerpoint 53.2789 5.06086 83.301
+> width 457.585
+> radius 457.585
+> v-ang 29.0621 204.266
+> XM -300.011
+> YM -400.011
+> ZM -0.009
+> XP 500.011
+> YP 400.011
+> ZP 319.308
+> bg 1 1 1
+> fg 0 0 0
+> frame 0
+LEGFORMAT: %g
+CONTOURPROJ: 0 0 0
+ISOPARAM: 1 1 0.2 0.4 1 1
+CONTOURMODE: 0 0 0 
+CONTOUR: s 20.0 0 1 1 
+LOADIMAGE: computit.jpg -10 18

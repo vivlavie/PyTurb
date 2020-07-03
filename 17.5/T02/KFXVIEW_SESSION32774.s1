@@ -1,0 +1,19 @@
+11
+INTERACTIVE: key j
+> frame 0
+> jpg-qual 95
+> clearleg
+> key - p f d O N  
+CONTOURMODE: 0 0 0
+CONTOURPROJ: 0 0 0
+> bg 1 1 1
+> r_eva 0.3 
+> fg 0 0 0
+SAVEIMAGE: tke20.jpg
+ISOPARAM: 0.1 0.1 0.9 0.4 1 1
+CONTOUR: s 20 0 1 0
+CONTOUR: s 0 0 0 1
+CONTOUR: s 0 0 0 2
+ISOPARAM: 0.1 0.1 0.9 0.4 1 1
+CONTOURMODE: 0 0 0
+CONTOUR: s 20 0 1 3

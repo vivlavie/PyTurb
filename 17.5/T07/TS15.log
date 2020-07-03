@@ -1,0 +1,252 @@
+ --------------------------------------------------
+ Initializing: Control Variables
+ --------------------------------------------------
+  :  LABEL    :   TYPE      :    CONTENT           :
+ : NFR1      :   INTEGER   :                    1 :
+ : NFRL      :   INTEGER   :                    1 :
+ : IP        :   INTEGER   :                  121 :
+ : JP        :   INTEGER   :                  122 :
+ : KP        :   INTEGER   :                   67 :
+ : IFIL      :   INTEGER   :                    0 :
+ : NFIL      :   REAL      :         0.900000E+06 :
+ : MSTEP     :   REAL      :         0.900000E+06 :
+ : TMAX      :   REAL      :         0.600000E+02 :
+ : TFIL      :   REAL      :         0.120000E+03 :
+ : NIO       :   INTEGER   :                    1 :
+ : COUR      :   REAL      :         0.500000E+00 :
+ : DTMAX     :   REAL      :         0.100000E+00 :
+ : DTMIN     :   REAL      :         0.100000E-02 :
+ : COUMAX    :   REAL      :         0.100000E+02 :
+ : COUFAC    :   REAL      :         0.110000E+01 :
+ : ALGO      :   CHARACTER :                  SC  :
+ : NPRE      :   INTEGER   :                   53 :
+ : LTRANS    :   LOGICAL   :      TRUE            :
+ : LCOMP     :   LOGICAL   :      FALSE           :
+ : LISOT     :   LOGICAL   :      FALSE           :
+ : LKEPS     :   LOGICAL   :      TRUE            :
+ : LES       :   LOGICAL   :      FALSE           :
+ : Z_WBREF   :   REAL      :         0.193000E+02 :
+ : LCOBRO    :   LOGICAL   :      FALSE           :
+ : ECHOS     :   CHARACTER :           nxnxnnnn   :
+ : SOLVER    :   CHARACTER :                QTDMA :
+ : PREF      :   REAL      :         0.100000E+06 :
+ : LXPORO    :   LOGICAL   :      TRUE            :
+ : LYPORO    :   LOGICAL   :      TRUE            :
+ : LZPORO    :   LOGICAL   :      TRUE            :
+ : LVPORO    :   LOGICAL   :      TRUE            :
+ : L1D       :   LOGICAL   :      FALSE           :
+ : L2D       :   LOGICAL   :      FALSE           :
+ : GX        :   REAL      :         0.000000E+00 :
+ : GY        :   REAL      :         0.000000E+00 :
+ : GZ        :   REAL      :        -0.981000E+01 :
+ : TLSMAX    :   REAL      :         0.100000E+02 :
+ : C3ES      :   REAL      :         0.000000E+00 :
+ : C3EU      :   REAL      :         0.100000E+01 :
+ : LESOL     :   LOGICAL   :      FALSE           :
+ : NHISTO    :   INTEGER   :                    4 :
+ : LREL0EFA  :   LOGICAL   :      FALSE           :
+ : LSCRE     :   LOGICAL   :      TRUE            :
+ : LGAS      :   LOGICAL   :      TRUE            :
+ : CONLIM    :   REAL      :         0.100000E-03 :
+ : TSHR_INI  :   REAL      :         0.100000E+31 :
+ : TSHR_FAC  :   REAL      :         0.100000E+01 :
+ : XFLMIN    :   REAL      :        -0.100000E+31 :
+ : XFLMAX    :   REAL      :         0.100000E+31 :
+ : YFLMIN    :   REAL      :        -0.100000E+31 :
+ : YFLMAX    :   REAL      :         0.100000E+31 :
+ : ZFLMIN    :   REAL      :        -0.100000E+31 :
+ : ZFLMAX    :   REAL      :         0.100000E+31 :
+ : DT_ROWCUM :   REAL      :         0.100000E+00 :
+ : STOPPRO   :   REAL      :         0.100000E+01 :
+ : DT_VOLSTOP:   REAL      :         0.100000E+05 :
+ : CBR       :   REAL      :         0.100000E+01 :
+ : HBR       :   REAL      :         0.400000E+01 :
+ : RHOBR     :   REAL      :         0.770000E+03 :
+ : CPBRN     :   REAL      :         0.247000E+04 :
+ : TAU_CHEM  :   REAL      :         0.700000E-04 :
+ : TKOK      :   REAL      :         0.423000E+03 :
+ : TSTRAAL   :   REAL      :         0.800000E+03 :
+ : QFORD     :   REAL      :         0.243900E+06 :
+ : RELQ      :   REAL      :         0.300000E+00 :
+ : FI1MIN    :   REAL      :         0.000000E+00 :
+ : FI1MAX    :   REAL      :         0.780000E+00 :
+ : TFAKMIN   :   REAL      :         0.100000E+01 :
+ : TFAKMAX   :   REAL      :         0.120000E+01 :
+ : N_TETT    :   INTEGER   :                    4 :
+ : N_FI      :   INTEGER   :                    6 :
+ : TBOX      :   REAL      :         0.800000E+03 :
+ : GASCUT    :   REAL      :         0.110000E+04 :
+ : SOOTCUT   :   REAL      :         0.000000E+00 :
+ : LAXSYM    :   LOGICAL   :      FALSE           :
+ : LBIRES    :   LOGICAL   :      FALSE           :
+ : QFTOT     :   REAL      :         0.243900E+06 :
+ : AMYDAM    :   REAL      :         0.100000E+00 :
+ : TIMELEAK  :   REAL      :         0.100000E+02 :
+ : LPOOSPR   :   LOGICAL   :      FALSE           :
+ : ABSBR     :   REAL      :         0.100000E+01 :
+ : U10       :   REAL      :        -0.169000E+02 :
+ : V10       :   REAL      :         0.453000E+01 :
+ : W_EXPO    :   REAL      :         0.117000E+00 :
+ : CDRAG     :   REAL      :         0.324030E-02 :
+ : NRAYS     :   INTEGER   :                   96 :
+ : AKBRN     :   REAL      :         0.000000E+00 :
+ : SURTECOF  :   REAL      :         0.000000E+00 :
+ : T_SUR     :   REAL      :         0.293000E+03 :
+ : NOELE_D   :   PARAMETER :                    4 :
+ : NOELE     :   INTEGER   :                    4 :
+ : CYCLIM    :   REAL      :         0.000000E+00 :
+ : NCYCMAX   :   INTEGER   :                    1 :
+ : MAXITSP   :   INTEGER   :                    4 :
+ : MAXITPC   :   INTEGER   :                 1000 :
+ : MAXITRE   :   INTEGER   :                    4 :
+ : PSOLVER   :   CHARACTER :                STONE :
+ : N_FINT    :   INTEGER   :                   -1 :
+ : LXCURV    :   LOGICAL   :      FALSE           :
+ : LYCURV    :   LOGICAL   :      FALSE           :
+ : LZCURV    :   LOGICAL   :      FALSE           :
+ : LOBST     :   LOGICAL   :      TRUE            :
+ : LXCYCL    :   LOGICAL   :      FALSE           :
+ : LYCYCL    :   LOGICAL   :      FALSE           :
+ : LZCYCL    :   LOGICAL   :      FALSE           :
+ : TLWBCL    :   REAL      :         0.100000E+02 :
+ : DXTH      :   REAL      :        -0.100000E-01 :
+ : DYTH      :   REAL      :         0.000000E+00 :
+ : DZTH      :   REAL      :         0.000000E+00 :
+ : DTH       :   REAL      :         0.100000E-02 :
+ : RHOTH     :   REAL      :         0.500000E+04 :
+ : CPTH      :   REAL      :         0.500000E+03 :
+ : AKTH      :   REAL      :         0.100000E+01 :
+ : ABSTH     :   REAL      :         0.900000E+00 :
+ : CONFILE   :   CHARACTER : T07.control          :
+ : IGNITION  :   INTEGER   :                    0 :
+ : HTCS      :   REAL      :         0.000000E+00 :
+ : MOMRELA   :   REAL      :         0.400000E+00 :
+ : PRERELA   :   REAL      :         0.100000E+01 :
+ : TEKRELA   :   REAL      :         0.400000E+00 :
+ : ESPRELA   :   REAL      :         0.400000E+00 :
+ : OTHRELA   :   REAL      :         0.400000E+00 :
+ : SOU       :   REAL      :         0.900000E+00 :
+ : SOUVW     :   REAL      :         0.900000E+00 :
+ : TPCLIM    :   REAL      :         0.000000E+00 :
+ : FACMOD    :   REAL      :         0.120000E+01 :
+ : H_STRING  :   CHARACTER : lVEL.f6e1.lQMAX.lTSM :
+ : NROB      :   INTEGER   :                    1 :
+ : TGROUND   :   REAL      :         0.293000E+03 :
+ : Q_SUN     :   REAL      :         0.000000E+00 :
+ : SUN_VX    :   REAL      :         0.100000E+01 :
+ : SUN_VY    :   REAL      :         0.000000E+00 :
+ : SUN_VZ    :   REAL      :         0.100000E+01 :
+ : Q_FARRAD  :   REAL      :         0.000000E+00 :
+ : LSPRAY    :   LOGICAL   :      FALSE           :
+ : FORCEM    :   REAL      :         0.000000E+00 :
+ : MINEVAP   :   LOGICAL   :      TRUE            :
+ : LFSEVAP   :   LOGICAL   :      TRUE            :
+ : TIME_IGN  :   REAL      :         0.000000E+00 :
+ : SPRAYFIL  :   CHARACTER : demo_2.spray         :
+ : XYZ_FILE  :   CHARACTER : none                 :
+ : DTSOLID   :   REAL      :         0.000000E+00 :
+ : RELSPCO   :   REAL      :         0.300000E+00 :
+ : RELTSOL   :   REAL      :         0.500000E+00 :
+ : LISOBLOB  :   LOGICAL   :      TRUE            :
+ : L4O       :   INTEGER   :                    1 :
+ : LP2T      :   LOGICAL   :      FALSE           :
+ : SPNA_PO   :   CHARACTER : C3H8                 :
+ : NFUEL2    :   INTEGER   :                    0 :
+ : COMSCHED  :   CHARACTER : NONE                 :
+ : RARG1     :   REAL      :         0.310000E+03 :
+ : RARG2     :   REAL      :         0.200000E+01 :
+ : RARG3     :   REAL      :         0.800000E+00 :
+ : RARG4     :   REAL      :         0.900000E+00 :
+ : TF        :   REAL      :         0.330000E+03 :
+ : HF        :   REAL      :         0.283000E+06 :
+ : RHO_CH    :   REAL      :         0.200000E+03 :
+ : CP_CH     :   REAL      :         0.800000E+03 :
+ : TK_CH     :   REAL      :         0.200000E+00 :
+ : TSOLIGN   :   REAL      :         0.450000E+04 :
+ : QIGNSC_F  :   REAL      :         0.100000E+06 :
+ : RELAX1    :   REAL      :         0.300000E+00 :
+ : DMIN      :   REAL      :         0.100000E-04 :
+ : INJAREA   :   REAL      :         0.000000E+00 :
+ : SWINGPHI  :   REAL      :         0.000000E+00 :
+ : SWINGTK   :   REAL      :         0.000000E+00 :
+ : NOSPE_L   :   INTEGER   :                    0 :
+ : NOSPE     :   INTEGER   :                    7 :
+ : NOSPE_P   :   INTEGER   :                    0 :
+ : SPNAP1    :   CHARACTER : CH4                  :
+ : YSPPOOL1  :   REAL      :         0.100000E+01 :
+ : NOCRE     :   INTEGER   :                    3 :
+ : NOCRE_D   :   PARAMETER :                    3 :
+ : LOGWND    :   LOGICAL   :      TRUE            :
+ : LSUBGRID2 :   LOGICAL   :      FALSE           :
+ : TUNFI     :   CHARACTER : tunnel_profile.dat   :
+ : CMUWIND   :   REAL      :         0.330000E-01 :
+ : U_SEA     :   REAL      :         0.000000E+00 :
+ : V_SEA     :   REAL      :         0.000000E+00 :
+ : C_SFR     :   REAL      :         0.000000E+00 :
+ -------------------------------------------------
+ Parameter consistency control
+           0  - corrections made. 
+-------------------------------------------------
+ Initializing: Thermophysical Properties
+-------------------------------------------------
+           0           1           2           3
+-------------------------------------------------
+ Initializing: Field Variable Attributes
+-------------------------------------------------
+ Init: [SOLVO] SOLVE ORDER           <  0.0000000E+00 ,   10000.00     >
+ Init: PRANDTL-SCHMIDT NUMBER        <  0.0000000E+00 ,  1.0000000E+30 >
+ Init: BLOCK CORREC- TION      0/1   <  0.0000000E+00 ,   1.000000     >
+ Init: MAX  ITER- ATIONS             <  0.0000000E+00 ,   100.0000     >
+ Init: POSTPONE SOLVING   0/1        <  0.0000000E+00 ,   1.000000     >
+ Init: RESIDUAL SCALING  0=AUTO      <  0.0000000E+00 ,  1.0000000E+30 >
+-------------------------------------------------
+ Initializing: Field Variables 
+-------------------------------------------------
+ Initializing: U         < -1.0000000E+30 ,  1.0000000E+30 > All      
+ Initializing: V         < -1.0000000E+30 ,  1.0000000E+30 > All      
+ Initializing: W         < -1.0000000E+30 ,  1.0000000E+30 > All      
+ Initializing: TEK       <  0.0000000E+00 ,  1.0000000E+30 > All      
+ Initializing: TED       <  1.0000000E-06 ,  1.0000000E+30 > All      
+ Initializing: T         <  0.0000000E+00 ,   10000.00     > All      
+ Initializing: PROD      < -1.0000000E+30 ,  1.0000000E+30 > All      
+ Initializing: CP        <  1.0000000E-06 ,  1.0000000E+30 > All      
+ Initializing: RHO       <  0.0000000E+00 ,  1.0000000E+30 > All      
+ Initializing: PD        < -1.0000000E-30 ,  1.0000000E+30 > All      
+ Initializing: VF        <   1.000000     ,   1.000000     > All      
+ Initializing: ENT       <  0.0000000E+00 ,  1.0000000E+30 > All      
+ Initializing: GEN       <  0.0000000E+00 ,  0.0000000E+00 > All      
+ Initializing: EDV       <  1.8240000E-06 ,  1.8240000E-06 > All      
+ Initializing: GAMX      <  1.0000000E-15 ,  1.0000000E-15 > All      
+ Initializing: TITT      < -1.0000000E+30 ,  1.0000000E+30 > All      
+ Initializing: PODP      < -1.0000000E+30 ,  1.0000000E+30 > All      
+ Initializing: OILS      < -1.0000000E+30 ,  1.0000000E+30 > All      
+ Initializing: ABSC      < -1.0000000E+30 ,  1.0000000E+30 > All      
+ Initializing: DWL       < -1.0000000E+30 ,  1.0000000E+30 > All      
+ Initializing: SOOT      < -1.0000000E+30 ,  1.0000000E+30 > All      
+ Initializing: PNUC      < -1.0000000E+30 ,  1.0000000E+30 > All      
+ Initializing: QIN       < -1.0000000E+30 ,  1.0000000E+30 > All      
+ Initializing: QNEW      < -1.0000000E+30 ,  1.0000000E+30 > All      
+ Initializing: GMCH      < -1.0000000E+30 ,  1.0000000E+30 > All      
+ Initializing: TAUH      < -1.0000000E+30 ,  1.0000000E+30 > All      
+ Initializing: ANUFS     < -1.0000000E+30 ,  1.0000000E+30 > All      
+ Initializing: ST4       < -1.0000000E+30 ,  1.0000000E+30 > All      
+ Initializing: ROM       < -1.0000000E+30 ,  1.0000000E+30 > All      
+ Initializing: MPF       < -1.0000000E+30 ,  1.0000000E+30 > All      
+ Initializing: FLM       <  0.0000000E+00 ,  1.0000000E+30 > All      
+ Initializing: SCO       <  1.0000000E-06 ,  1.0000000E+30 > All      
+ Initializing: XPH       <  0.0000000E+00 ,   1.000000     > All      
+ Initializing: YPH       <  0.0000000E+00 ,   1.000000     > All      
+ Initializing: ZPH       <  0.0000000E+00 ,   1.000000     > All      
+ Initializing: VPH       <  0.0000000E+00 ,   1.000000     > All      
+ Initializing: RHS       <  1.0000000E-06 ,  1.0000000E+30 > All      
+ Initializing: CPS       <  1.0000000E-06 ,  1.0000000E+30 > All      
+ Initializing: OILS      < -1.0000000E+30 ,  1.0000000E+30 > All      
+-------------------------------------------------
+ Field Variables in Status Print          
+-------------------------------------------------
+ U                   
+ V                   
+ W                   
+ ENT                 
+ SOOT                
+ QIN                 

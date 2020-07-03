@@ -1,0 +1,18 @@
+11
+INTERACTIVE: key j
+> frame 0
+> jpg-qual 95
+> clearleg
+> key - p f d O N  
+CONTOURMODE: 0 0 0
+CONTOURPROJ: 0 0 0
+> bg 1 1 1
+> r_eva 0.3 
+> fg 0 0 0
+SAVEIMAGE: T06_k4.6_cyl.jpg
+CONTOUR: s 0 0 0 0
+CONTOUR: s 0 0 0 1
+ISOPARAM: 1 0.1 0.1 0.4 1 1
+CONTOURMODE: 0 0 0
+CONTOUR: s 4.6 0 1 2
+CONTOUR: s 0 0 0 3
